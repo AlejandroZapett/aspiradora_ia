@@ -1,4 +1,4 @@
-#######    Definición de pilas y colas    #########
+#######    Definicion de pilas y colas    #########
 
 class Pila:
 	def __init__(self):

@@ -1,4 +1,4 @@
-#######    Definición de la clase Nodo    #########
+#######    Definicion de la clase Nodo    #########
 
 class Nodo:
 	numero = 0
