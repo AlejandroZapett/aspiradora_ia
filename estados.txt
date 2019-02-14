@@ -1,0 +1,8 @@
+0:Aspiradora en A, A sucio y B sucio:1,2:no
+1:Aspiradora en B, A sucio y B sucio:0,3:no
+2:Aspiradora en A, A limpio y B sucio:4:no
+3:Aspiradora en B, A sucio y B limpio:5:no
+4:Aspiradora en B, A limpio y B sucio:6:no
+5:Aspiradora en A, A sucio y B limpio:7:no
+6:Aspiradora en B, A limpio y B limpio:7:si
+7:Aspiradora en A, A limpio y B limpio:6:si
