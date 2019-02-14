@@ -18,7 +18,7 @@ io.on('connection', function(socket){
 	console.log("made socket connection");
 
 	socket.on('request', function(data){
-		console.log(data);
+		//console.log(data);
 		pythonScript(data);
 	});
 
