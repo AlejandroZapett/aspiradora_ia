@@ -14,5 +14,5 @@ El procedimiento para ejecutar el programa es:
  
  1. npm install
  2. npm start
-
+ 3. Ingresar al navegador, a la ruta: localhost:3000
  
