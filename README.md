@@ -12,7 +12,8 @@ Para ejecutar el programa, se necesita de:
 
 El procedimiento para ejecutar el programa es:
  
- 1. npm install
- 2. npm start
+ 1. Abrir la terminal en esta carpeta
+ 2. Ejecutar: npm install
+ 2. Ejecutar: npm start
  3. Ingresar al navegador, a la ruta: localhost:3000
  
