@@ -44,12 +44,20 @@ var imagen = document.createElement("IMG");
 socket.on('response', function(message){
 	hijos = parseMessage(message);
 	console.log(message);
+
+	var contador = 0;
+
 	hijos.forEach(function(e){
-		name = "img/"+e.replace(" ", "")+".png";
-		console.log(name);
-		var imagen = document.createElement("IMG");
-		imagen.setAttribute("src", name);
-		imagenes.push(imagen)
+		contador = contador+1;
+
+		if(contador > 1){
+			name = "img/"+e.replace(" ", "")+".png";
+			console.log(name);
+			var imagen = document.createElement("IMG");
+			imagen.setAttribute("src", name);
+			imagenes.push(imagen);
+
+		}
 	});
 
 	console.log(imagenes)
